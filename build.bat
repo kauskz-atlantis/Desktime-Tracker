@@ -1,0 +1,13 @@
+pyinstaller tracker.py ^
+    --onedir ^
+    --collect-all pywin32 ^
+    --hidden-import=pythoncom ^
+    --hidden-import=win32com ^
+    --windowed ^
+    --icon=logo-a-dark.ico ^
+    --workpath ./Setup/build ^
+    --distpath ./Setup/dist ^
+    --specpath ./Setup ^
+    --clean ^
+    --noconfirm ^
+    --name ATL_Desk_Management_System 

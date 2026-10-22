@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+
+config.py
+
+Legacy/
+
+Setup/
+Setup/build
+Setup/dist
+*.exe
+
+*.manifest
+*.spec
