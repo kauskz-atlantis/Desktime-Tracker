@@ -5,9 +5,9 @@ config.py
 
 Legacy/
 
-Setup/
 Setup/build
 Setup/dist
+Setup/config.ini
 *.exe
 
 *.manifest
